@@ -1,7 +1,7 @@
 const event_module=require("events");
 var class_event= new event_module();
 
-class_event.on("make noise",function(arg){
+class_event.on("make noise",(arg) =>{
     console.log("catch event make noise "+arg.make_noise_nth);
 });
 

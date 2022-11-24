@@ -1,0 +1,30 @@
+{
+  "name": "express_nodejs",
+  "version": "1.0.0",
+  "description": "Individual Coding Assignment 01",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --inspect main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/vdkhoi20/NodeJs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "DinhKhoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdkhoi20/NodeJs/issues"
+  },
+  "homepage": "https://github.com/vdkhoi20/NodeJs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
