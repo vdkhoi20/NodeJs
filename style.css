@@ -1,0 +1,19 @@
+h1{
+    color:pink;
+    text-align: center;
+    font-family: verdana;
+    font-weight: bold;
+}
+h2 {
+    color: orange;
+    text-align: left;
+    font-weight: bold;
+}
+body div span {
+    font-size: 20px;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+
