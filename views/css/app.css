@@ -1,8 +1,13 @@
-h1 {
+.h1 {
   color: pink;
-  text-align: center;
   font-family: verdana;
-  font-weight: bold; }
+  font-weight: bold;
+  width: auto;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 h2 {
   color: orange;
@@ -19,3 +24,6 @@ img {
 footer div {
   text-align: center;
   font-weight: bold; }
+
+body div, body div h2 {
+  text-align: center; }
