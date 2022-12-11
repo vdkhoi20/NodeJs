@@ -1,7 +1,7 @@
-const expres=require("express");
-const router=expres.Router();
+const express=require("express");
+const router=express.Router();
 
 const marrycontroller=require("../controllers/MarryController");
-router.use('/home',marrycontroller.marrys);
-
+router.get('/',marrycontroller.marrys);
+router.get('/age',marrycontroller.age);
 module.exports=router;

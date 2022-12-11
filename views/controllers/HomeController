@@ -1,0 +1,10 @@
+class HomeController{
+    home(req,res) {
+        res.render('home');
+    }
+    age(req,res){
+        res.send("<h1>hit age page</h1>");
+
+    }
+}
+module.exports=new HomeController;
